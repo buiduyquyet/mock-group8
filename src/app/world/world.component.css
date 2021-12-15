@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mg-auto {
+    padding: 0 10px;
+}
+
+.confirm-color {
+    background-color: #683bb7;
+    color: white;
+    border-radius: 5px;
+}
+
+.recovered-color {
+    color: white;
+    border-radius: 5px;
+    background-color: #059589;
+}
+
+.detail-color {
+    color: white;
+    border-radius: 5px;
+    background-color: #ea2063;
+}
+
+.fantality-color {
+    color: white;
+    border-radius: 5px;
+    background-color: #c3195c;
+}
