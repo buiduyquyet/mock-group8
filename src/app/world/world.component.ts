@@ -7,11 +7,10 @@ import { Covid19Service } from '../service/covid19.service';
   styleUrls: ['./world.component.css'],
 })
 export class WorldComponent implements OnInit {
-  listWorldWide: any = [];
+  listWorldWide: any;
   constructor(private covid19Service: Covid19Service) {
     this.covid19Service.getListWorldWide().subscribe((response: any) => {
-      this.listWorldWide = Object.values(response);
-      console.log(this.listWorldWide);
+      this.listWorldWide = response
     });
   }
 
